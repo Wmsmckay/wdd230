@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>McKay's Assignment Homepage</title>
+    <link href="css/main.css" rel="stylesheet">
     <meta name="description" content="Assignment portal for McKay Williams in WDD 230: Web frontend Development at Brigham Young University - Idaho">
 </head>
+
 <body>
+    <header>
+        <img src="./images/mckay-picture-smile.jpg" alt="Handsome picture of McKay">
+        <h2>McKay Williams</h2>
+    </header>
     <main>
-        <header>
-            <img src="" alt="Handsome picture of McKay">
-            <h2>McKay Williams</h2>
-        </header>
         <h4>WDD 230: Assignment Portal</h4>
         <ul>
             <li>Lesson 01 <a href="#">Title</a></li>
@@ -30,8 +32,9 @@
         <p>Some lessons may need more than one activity/assignment link.</p>
     </main>
     <footer>
-        &copy;<span id=year></span> McKay Williams
+        <div id="div-year">&copy; <span id=current-year></span> | McKay Williams | Idaho</div>
+        <span id=last-updated></span>
     </footer>
-    <script></script>
+    <script src="./js/dates.js"></script>
 </body>
 </html>

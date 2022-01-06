@@ -5,6 +5,11 @@
     --highlight-color: #AB6BFB;
     --light-color:#FFFFFF;
     --background-color: #1F1F1F;
+    /* --link:#7325d9; */
+    --link: rgb(153, 0, 255);
+    --link-hover: hotpink;
+    --link-visited:rgb(107, 0, 128);
+    --link-active:#d925ca;
 
 }
 body {
@@ -29,6 +34,11 @@ header {
     border-radius: 1em;
     padding: 15px;
     width: 100%;
+}
+
+main {
+    font-family: Courier New, monospace, sans-serif;
+    font-weight: bold;
 }
 
 img {
@@ -56,4 +66,21 @@ footer {
     color: var(--highlight-color);
     padding: 15px;
     border-radius: 5px;
+}
+
+/* unvisited link */
+a:link {
+      color: var(--link);
+}
+/* visited link */
+a:visited {
+      color: var(--link-visited);
+}
+/* mouse over link */
+a:hover {
+      color: var(--link-hover);
+}
+/* selected link */
+a:active {
+      color: var(--link-active);
 }

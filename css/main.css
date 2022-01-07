@@ -11,7 +11,6 @@
     --link-hover: #ff00dd;
     --link-visited: #b86deb;
     --link-active:#d9259d;
-	
 }
 body {
     margin: auto;
@@ -84,4 +83,12 @@ a:hover {
 /* selected link */
 a:active {
       color: var(--link-active);
+}
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        width: 75%;
+    }
 }

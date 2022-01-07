@@ -1,16 +1,16 @@
 :root {
     --dark-color: #0F0F0F;
     --dark-gray-color: #111111;
-    --light-gray-color: #535353;
+    --light-gray-color: #dadfe1;
     --highlight-color: #AB6BFB;
-    --light-color:#FFFFFF;
+    --light-color:#f2f1ef;
     --background-color: #1F1F1F;
     /* --link:#7325d9; */
-    --link: rgb(153, 0, 255);
-    --link-hover: hotpink;
-    --link-visited:rgb(128, 0, 75);
+    --link: #FC6399;
+    --link-hover: #ff00ff;
+    --link-visited: #bf6ee0;
     --link-active:#d925ca;
-
+	
 }
 body {
     margin: auto;

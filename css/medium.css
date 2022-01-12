@@ -1,0 +1,13 @@
+@media only screen and (max-width:1120px){
+    body {
+        width: 75%;
+        /* padding-inline: 1em; */
+    }
+    main {
+        text-align: center;
+        padding-inline: 0.5em;
+    }
+    main ul {
+        text-align: left;
+    }
+}

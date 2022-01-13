@@ -7,10 +7,16 @@
     --highlight-color: #1BD4BA;
     --light-color:#f2f1ef;
     --background-color: #1F1F1F;
+    --border-line: #363636;
     --link: #1BD4BA;
     --link-hover: #ff00dd;
     --link-visited: #b86deb;
     --link-active:#d9259d;
+}
+
+.glowing {
+    color: var(--highlight-color);
+    text-shadow: 0.1em 0.1em .75em #c8fff8;
 }
 
 html {
@@ -21,32 +27,94 @@ body {
     color: var(--light-color);
     display: grid;
     grid-template-columns: 1fr;
+    margin: auto;
     width: 100%;
-    grid-gap: auto 1em;
+    /* grid-gap: auto 1em; */
     font-family: 'Roboto', sans-serif;
 }
 
 header {
     background-color: var(--dark-gray-color);
-    color: var(--highlight-color);
+    border-radius: 1em;
+    /* max-width: 430px; */
+}
+
+header  h1 {
+    margin-left: 1em;
+    margin-right: auto;
 }
 
 main {
     font-family: 'Courier Prime', monospace;
     font-weight: bold;
+    max-width: 430px;
 }
 
 main div {
-    display: grid;
-    grid-template-columns: 1fr;
-    /* background-color: var(--dark-color); */
-    /* margin: 0.5em; */
-    /* margin: auto; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
+    /* border-radius: 1em; */
 }
 
 .title {
+    border-radius: 1em;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 1em;
+    margin-right: auto;
+    /* background-color: blue; */
+}
+
+
+img {
+    align-self: center;
+    /* box-shadow: 4px 4px 1em var(--highlight-color); */
+    border: 1px solid var(--border-line);
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.example {
+    margin: 1em;
     background-color: var(--dark-gray-color);
-    color: var(--highlight-color);
-    /* margin: 0.5em; */
-    /* margin: auto; */
+    border: 1px solid var(--border-line);
+    border-radius: 10px;
+}
+
+div p {
+    margin: 1em;
+}
+
+footer {
+    display: flex; 
+    flex-flow: column;
+    align-items: center; 
+    justify-content: center;
+    background-color: var(--dark-gray-color);
+    /* color: var(--highlight-color); */
+    padding: 15px;
+    border-radius: 1em;
+    /* text-shadow: 0.1em 0.1em 1em #c8fff8; */
+}
+
+
+/* unvisited link */
+a:link {
+    color: var(--link);
+}
+/* visited link */
+a:visited {
+    color: var(--link-visited);
+}
+/* mouse over link */
+a:hover {
+    color: var(--link-hover);
+}
+/* selected link */
+a:active {
+    color: var(--link-active);
 }

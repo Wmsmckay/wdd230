@@ -11,6 +11,11 @@
     --link-active:#d9259d;
 }
 
+.glowing {
+    color: var(--highlight-color);
+    text-shadow: 0.1em 0.1em .75em #c8fff8;
+}
+
 body {
     margin: auto;
     width: 50%;
@@ -49,10 +54,10 @@ body p {
     color: var(--light-gray-color);
 }
 
-header h1 {
+/* header h1 {
     color: var(--highlight-color);
     text-shadow: 0.1em 0.1em .75em #c8fff8;
-}
+} */
 
 
 footer {
@@ -61,10 +66,10 @@ footer {
     align-items: center; 
     justify-content: center;
     background-color: var(--dark-gray-color);
-    color: var(--highlight-color);
+    /* color: var(--highlight-color); */
     padding: 15px;
     border-radius: 1em;
-    text-shadow: 0.1em 0.1em 1em #c8fff8;
+    /* text-shadow: 0.1em 0.1em 1em #c8fff8; */
 }
 
 /* unvisited link */

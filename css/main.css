@@ -2,16 +2,15 @@
     --dark-color: #0F0F0F;
     --dark-gray-color: #111111;
     --light-gray-color: #dadfe1;
-    /* --highlight-color: #AB6BFB; */
     --highlight-color: #1BD4BA;
     --light-color:#f2f1ef;
     --background-color: #1F1F1F;
-    /* --link:#7325d9; */
     --link: #1BD4BA;
     --link-hover: #ff00dd;
     --link-visited: #b86deb;
     --link-active:#d9259d;
 }
+
 body {
     margin: auto;
     width: 50%;

@@ -1,0 +1,52 @@
+/* For mobile and default view */
+
+:root {
+    --dark-color: #0F0F0F;
+    --dark-gray-color: #111111;
+    --light-gray-color: #dadfe1;
+    --highlight-color: #1BD4BA;
+    --light-color:#f2f1ef;
+    --background-color: #1F1F1F;
+    --link: #1BD4BA;
+    --link-hover: #ff00dd;
+    --link-visited: #b86deb;
+    --link-active:#d9259d;
+}
+
+html {
+    background-color: var(--background-color);
+}
+
+body {
+    color: var(--light-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    grid-gap: auto 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: var(--dark-gray-color);
+    color: var(--highlight-color);
+}
+
+main {
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* background-color: var(--dark-color); */
+    /* margin: 0.5em; */
+    /* margin: auto; */
+}
+
+.title {
+    background-color: var(--dark-gray-color);
+    color: var(--highlight-color);
+    /* margin: 0.5em; */
+    /* margin: auto; */
+}

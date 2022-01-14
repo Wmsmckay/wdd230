@@ -44,8 +44,7 @@ header  h1 {
 }
 
 main {
-    font-family: 'Courier Prime', monospace;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 .title {

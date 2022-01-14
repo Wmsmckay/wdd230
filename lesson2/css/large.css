@@ -1,1 +1,12 @@
 /* For desktop view */
+@media only screen and (min-width: 950px){
+    body {
+        max-width: 1000px;
+    }
+
+    #example-3 {
+        grid-column: 3/4;
+    }
+
+
+}

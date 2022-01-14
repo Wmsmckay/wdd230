@@ -75,6 +75,7 @@ img {
     border: 1px solid var(--border-line);
     border-radius: 10px;
     max-width: 430px;
+    min-width: 300px;
 }
 
 div p {

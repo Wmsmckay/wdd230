@@ -7,6 +7,7 @@
     <meta name="description" content="Home page for the Bestine Chamber of Commerce on Tatooine.">
     <meta name="author" content="McKay Williams">
     <title>Bestine Chamber of Commerce Homepage</title>
+    <link rel="shortcut icon" href="./favicon.ico">
     <link href="../css/normalize.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
@@ -14,11 +15,12 @@
 </head>
 <body>
     <header>
-        <img src="" alt="BCC logo">
-        <h1>Bestine Chamber of Commerce</h1>
-        <span>[Facebook]</span>
-        <span>[LinkedIn]</span>
-        <span>[date]</span>
+        <div>
+            <img src="./images/bantha-logo.jpeg" width="100px" alt="BCC logo">
+            <h1>Bestine Chamber of Commerce</h1>
+            <span>[Facebook]</span>
+            <span>[LinkedIn]</span>
+        </div>
         <nav>
             <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
             <ul id="primaryNav">
@@ -28,20 +30,28 @@
                 <li><a href="#">Contact</a></li>   
             </ul>
         </nav>
-        <span>date</span>
+        <span id="header-date"></span>
     </header>
     <main>
-        <div>Hero with site name and call to action</div>
-        <div>Event</div>
-        <div>Weather</div>
-        <div>New Releaese</div>
         <div>
-            <span>Spotlight 1</span>
-            <span>Spotlight 2</span>
+            <p>Hero with site name and call to action</p>
+        </div>
+        <div>
+            <p>Event</p>
+        </div>
+        <div>
+            <p>Weather</p>
+        </div>
+        <div>
+            <p>New Release</p>
+        </div>
+        <div>
+            <div><p>Spotlight 1</p></div>
+            <div><p>Spotlight 2</p></div>
         </div>
     </main>
     <footer>
-        <div>
+        <div id="contact-info">
             <h2>Bestine Chamber of Commerce</h2>
             <p>Delivery Station 450, Receptacle C-53, Bestine, Tatooine, Quadrant 4517523</p>
             <p>info@bestincc.com</p>
@@ -52,7 +62,7 @@
             <p>WDD 230 Project</p>
             <span id=last-updated></span>
         </div>
-        
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

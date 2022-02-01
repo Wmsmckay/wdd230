@@ -1,0 +1,49 @@
+/* For tablet view */
+@media only screen and (min-width:650px){
+    body {
+        align-items: unset;
+        justify-content: unset;
+    }
+
+    header {
+        justify-content: unset;
+    }
+
+    footer {
+        justify-content: unset;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #call-to-action {
+        grid-column: 1/3;
+    }
+
+    #new-release {
+        grid-column: 1/3;
+    }
+
+    #spotlights {
+        display: grid;
+        grid-column: 1/3;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #join {
+        display: initial;
+        grid-column: 1/3;
+        grid-row: 3;
+    }
+
+    #event {
+        grid-row: 5;
+        grid-column: 1/2;
+    }
+
+    #weather {
+        grid-row: 5;
+        grid-column: 2/3;
+    }
+}

@@ -19,13 +19,12 @@
 </head>
 <body>
     <header>
-        <div>
-            <img src="./images/bantha-logo.png" width="100px" alt="BCC logo">
+        <img src="./images/bantha-logo.png" width="100px" alt="BCC logo">
+        <section>
             <h1>Bestine Chamber of Commerce</h1>
-            <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-        </div>
+        </section>
+        
+        <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
         <nav>
             <ul id="primaryNav">
                 <li><a href="#">Discover</a></li>
@@ -34,7 +33,10 @@
                 <li><a href="#">Contact</a></li>   
             </ul>
         </nav>
-        
+        <div id="social-links">
+            <span><a href="#" class="fa fa-facebook"></a></span>
+            <span><a href="#" class="fa fa-linkedin"></a></span>
+        </div>
         <span id="header-date"></span>
     </header>
     <main>
@@ -60,13 +62,14 @@
         </div>
     </main>
     <footer>
+        <img src="./images/bantha-logo.png" width="100px" alt="BCC logo">
         <div id="contact-info">
             <h2>Bestine Chamber of Commerce</h2>
             <p>Delivery Station 450, Receptacle C-53, Bestine, Tatooine, Quadrant 4517523</p>
             <p>info@bestincc.com</p>
             <p>(742263) 85-6-33129</p>
         </div>
-        <div>
+        <div id="site-info">
             <span>&copy; <span id=current-year></span> Bestine Chamber</span> 
             <p>McKay Williams</p>
             <p>WDD 230 Project</p>

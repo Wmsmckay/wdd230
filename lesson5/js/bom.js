@@ -7,7 +7,7 @@ button.addEventListener('click', function() {
     let deleteBtn = document.createElement('button');
     lineItem.textContent = input.value;
     input.value = '';
-    deleteBtn.innerHTML = 'Delete'
+    deleteBtn.innerHTML = '❌'
 
     lineItem.appendChild(deleteBtn);
     list.appendChild(lineItem);

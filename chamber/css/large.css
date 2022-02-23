@@ -1,43 +1,97 @@
 /* For desktop view */
 @media only screen and (min-width: 1000px){
+    /* || Global Css */
+
+    
+    /* || Header */
+    header {
+        grid-template-columns: 100px 1fr 2fr 1fr;
+    }
+    h1 {
+        text-align: left;
+    }
+
+    /* || Social */
+    social-links {
+        grid-column: 4/5;
+    }
+
+
+    /* || Navigation Menu */
+    nav {
+        grid-column: 3/4;
+        grid-row: 1;
+    }
+    nav button {
+        display: none;
+    }
+    #primaryNav {
+        display: flex;
+        position: relative;
+      }
+    #primaryNav li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    #primaryNav a {
+        text-align: center;
+        border: none;
+    }
+
+    /* || Date */
+
+
+    /* || Main */
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-
     #call-to-action {
         grid-column: 2/4;
         grid-row: 1/3;
     }
-
     #new-release {
         grid-column: 2/4;
         grid-row: 3/4;
     }
-
     #spotlights {
         grid-column: 4/5;
         grid-row: 1/4;
         grid-template-columns: 1fr;
     }
-
     #join {
         /* display: grid; */
         grid-column: 1/2;
         grid-row: 3/4;
     }
-
     #event {
         grid-row: 1;
         grid-column: 1/2;
     }
-
     #weather {
         grid-row: 2/3;
         grid-column: 1/2;
     }
-
     #spotlight-3 {
         display: initial;
     }
+
+
+    /* || Footer */
+    #footer-top {
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr 2fr 1fr 1fr;
+        align-items: center;
+    }
+    footer img {
+        grid-column:1;
+    }
+    #business-info {
+        grid-column: 2/3;
+    }
+    #contact-info {
+        grid-column: 4/5;
+    }
+
 }

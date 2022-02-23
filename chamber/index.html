@@ -28,7 +28,7 @@
             <span><a href="#" class="fa fa-linkedin"></a></span>
         </div>
         <nav>
-            <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
                 <li><a href="#">Discover</a></li>
                 <li><a href="#">Directory</a></li>
@@ -49,16 +49,17 @@
         </div>
         <div id="event">
             <h2>Boonta Eve Classic This Weekend!</h2>
-            <p>Join us for the Boota Eve Classic pod race this weekend. Get your tickets now to watch in person at the Mos Espa Grand Arena! </p>
+            <p>Join us for the Boonta Eve Classic pod race this weekend. Get your tickets now to watch in person at the Mos Espa Grand Arena! </p>
         </div>
         <div id="weather">
             <h2>Weather</h2>
-            <img scr="" alt="current weather image">
-            <p>Degrees</p>
-            <p>Conditions</p>
+            <!-- <img id="weatherIcon" src="images/weather_conditions.png" alt="Weather Icon"> -->
+            <img src="./images/moisture-vaporator-tan.png" id="weatherIcon" alt="current weather image">
+            <p><span id="temp"> 90</span>&#176; F</p>
+            <p>Mostly Sunny</p>
             <hr>
-            <p>Wind speed: </p>
-            <p>Wind Chill:</p>
+            <p>Wind Speed: <span id="speed"> 5 mph </span></p>
+            <p>Wind Chill: <span id="windchill"></span></p>
         </div>
         <div id="new-release">
             <h2>News</h2>
@@ -113,6 +114,7 @@
             <p>&copy;<span id=current-year></span> | Bestine Chamber | McKay Williams | WDD 230 Project <span id=last-updated></span></p>
         </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/windchill.js"></script>
 </body>
 </html>

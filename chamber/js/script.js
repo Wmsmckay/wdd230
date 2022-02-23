@@ -29,3 +29,12 @@ let yyyy = today.getFullYear();
 const currentDate = `${wd}, ${mm} ${dd}, ${yyyy}`;
 
 document.querySelector("#header-date").textContent = currentDate;
+
+
+// display the banner on Monday and Tuesdays
+if(wd === "Monday" || wd === "Tuesday") {
+  document.getElementById("banner").style.display = "block";
+}
+else {
+  document.getElementById("banner").style.display = "none";
+}

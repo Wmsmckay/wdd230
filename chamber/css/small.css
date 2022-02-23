@@ -172,34 +172,24 @@ body p {
 }
 #call-to-action img {
     width: 100%;
-    /* height: 100%; */
     object-fit: cover;
-    /* object-position: 50% 50%; */
-    /* background-size: contain; */
-    /* overflow: hidden; */
-    /* grid-column: 1/3; */
-    /* grid-row: 1/3; */
 }
 .action-button{
-    /* background:#50A6A5; */
-    /* padding: 8px 20px; */
-    /* font-size: large; */
-    /* color: white; */
-    /* text-align: center; */
-    /* transition: 0.3s; */
-    /* border-radius: 5px; */
     grid-column: 2/3;
     grid-row: 2/3;
     cursor: pointer;
-    /* grid-column: 2/3; */
-    /* grid-row: 2/3; */
 }
 main div {
     margin: 1rem;
     background-color: rgba(49, 49, 49, 0.3);
     text-align: center;
     border: 1px solid var(--border-line);
-    border-radius: 10px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+#weather img{
+    /* float: left; */
 }
 #spotlights img {
     max-width: 150px;

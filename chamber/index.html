@@ -21,7 +21,7 @@
     <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
 
     <header>
-        <img class="logo" src="./images/bantha-logo.png"  alt="BCC logo">
+        <img class="logo" src="./images/bantha-logo.webp"  alt="BCC logo">
         <h1 id="title"><span class="glowing">Bestine</span><br> Chamber of Commerce</h1>
         <div id="social-links">
             <span><a href="#" class="fa fa-facebook"></a></span>
@@ -41,8 +41,10 @@
     <main>
         <div id="call-to-action">
             <picture>
-                <img src="./images/hero-img.jpg" alt="mos espa">
-            </picture>
+                <source srcset="./images/hero-img-medium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="./images/hero-img-large.jpg" media="(min-width: 800px)">
+                <img src="./images/hero-img-small.jpg" alt="Mos Espa">
+            </picture>         
             <section class="hero-overlay">
                 <button type="button" class="action-button">Join Us!</button>
             </section>
@@ -98,7 +100,7 @@
     </main>
     <footer>
         <div id="footer-top">
-            <img class="logo" src="./images/bantha-logo.png" alt="BCC logo">
+            <img class="logo" src="./images/bantha-logo.webp" alt="BCC logo">
             <div id="business-info">
                 <h2 class="glowing" >Bestine Chamber of Commerce</h2>
                 <p>Delivery Station 450, Receptacle C-53, Bestine, Tatooine, Quadrant 4517523</p>

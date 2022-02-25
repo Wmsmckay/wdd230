@@ -22,7 +22,7 @@ tr:first-child th {
     background-color: var(--back);
     color: var(--foredark);
     font-size: 175%;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 #big-goal {

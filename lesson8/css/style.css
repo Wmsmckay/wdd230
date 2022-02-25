@@ -1,0 +1,59 @@
+:root {
+    --back: #6DACB4;
+    --back2:#507995;
+    --foredark:#000000;
+    --forelight:#FFFFFF;
+    --border: #A5A8A8;
+    --borderlight:hsl(0,0%,33%);
+    --shadow:hsl(0,0%,50%);
+    --zebraeven:#E1FFE9; 
+    --zebraodd:#E2ECE8;
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid var(--border);
+    box-shadow: 10px 10px 15px var(--shadow);
+    border-collapse: collapse;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+tr:first-child th {
+    background-color: var(--back);
+    color: var(--foredark);
+    font-size: 175%;
+    font-weight: bolder;
+}
+
+#big-goal {
+    background-color: var(--back2);
+    color: var(--forelight);
+}
+
+tfoot {
+    background-color: var(--back);
+    color: var(--foredark);
+    font-size: 50%;
+}
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid var(--borderlight);
+}
+
+th {
+    background-color: var(--back2);
+    color: var(--forelight);
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even){
+    background-color: var(--zebraeven);
+}
+
+tbody tr:nth-child(odd){
+    background-color: var(--zebraodd);
+}

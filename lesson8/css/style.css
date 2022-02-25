@@ -33,7 +33,7 @@ tr:first-child th {
 tfoot {
     background-color: var(--back);
     color: var(--foredark);
-    font-size: 50%;
+    font-size: 75%;
 }
 
 th, td {

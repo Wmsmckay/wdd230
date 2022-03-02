@@ -40,15 +40,12 @@
     </header>
     <main>
         <div id="join-main">
-            <div>
-                <!-- first name, last name, business position title (regex), email, phone, business name, memership level, business description, hidden field with current date and time, form submission button  -->
                 <h2>Join the Chamber of Commerce</h2>
                 <form method="get" action="./thankyou.html">
                     <fieldset>
                         <legend>Applicant Information</legend>
                         <label class="top">First Name* <input type="text" name="fname" required></label>
                         <label class="top">Last Name* <input type="text" name="lname" required></label>
-                        <!-- Add Regex here -->
                         <label class="top">Business Position <small>(only letter hyphens, and spaces)</small> <input type="text" name="businesstitle" pattern="[a-zA-Z0-9- ]{7}"></label>
                         <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.ttne" required></label>
                         <label class="top">Cell Phone* <input type="tel" name="phone" required></label>
@@ -57,7 +54,6 @@
                     <fieldset>
                         <legend>Business Information</legend>
                         <label class="top">Business Name <input type="text" name="businessname" required></label>
-                        <!-- <div id="membership">Membership Level</div> -->
                         <label class="top membership">Membership Level</label>
                         <label class="sbs"><input type="radio" name="level" value="np" required> NP Membership</label>
                         <label class="sbs"><input type="radio" name="level" value="bronze"> Bronze Membership</label>
@@ -66,7 +62,6 @@
                         
                         <label class="top">Business Description</label>
                         <textarea name="bDesc"placeholder="Enter a brief description of your business."></textarea><br><br>
-
 
                         <input type="hidden" id="currentDate" name="currentDate" value="CurrentTime"> 
                         <script>
@@ -104,9 +99,6 @@
                 </ul>
             </div>       
         </div>
-        
-
-
 
     </main>
     <footer>

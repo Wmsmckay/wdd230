@@ -68,7 +68,6 @@ h1 {
     margin: 5px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    /* color: var(--highlight-color); */
 }
 #title span{
     font-size: 1.8em;
@@ -197,47 +196,40 @@ main div {
     max-width: 150px;
 }
 
-/* || Join */
+
+
+/* || Join Main*/
 #join-main {
     grid-column: 1/2;
 }
-
 ul {
     font-family: 'Roboto', sans-serif;
-    /* align-items: left; */
-    /* justify-content: left; */
     text-align: left;
 }
 
-/* || Form */
+
+/* || Join Form */
 form {
     font-family: 'Roboto', sans-serif;
     text-align: left;
 }
-
 form fieldset{
     margin: 2rem 0;
     border: 5px solid var(--border-line);
     border-radius: 20px;
     padding: .5rem 2%;
 }
-
 form legend {
     color: var(--highlight-color);
     margin: 0 1rem;
     padding: 0 .5rem;
 }
-
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    /* color: #9c2c13; */
-    color: --light-gray-color;
-    /* font-size: .8rem; */
+    color: var(--light-gray-color);
 }
-
 form label.top input, form label.top select {
-    /* -webkit-appearance: none; */
     display: block;
     font-size: 1rem;
     border: solid 1px #999;
@@ -248,21 +240,17 @@ form label.top input, form label.top select {
     max-width: 18rem;
     background-color: rgba(0,0,0,0.1);
 }
-
 textarea {
     width: 90%;
 }
-
 .membership {
     padding-top: 5rem;
 }
-
 form label.sbs {
     display: block;
     padding: .75rem 0;
     color: rgba(255,255,255,.55);
 }
-
 form input.submitBtn {
     border: none;
     background-color: var(--link-active);
@@ -273,14 +261,14 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
 }
-
 form label.top input:required {
     border-left: red solid 6px;
 }
-
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
+
+
 
 /* || Footer */
 footer {

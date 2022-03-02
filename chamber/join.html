@@ -68,7 +68,10 @@
                         <textarea name="bDesc"placeholder="Enter a brief description of your business."></textarea><br><br>
 
 
-                        <p>date here (hidden)</p>
+                        <input type="hidden" id="currentDate" name="currentDate" value="CurrentTime"> 
+                        <script>
+                            document.querySelector('#currentDate').value = Date();
+                        </script>
 
                     </fieldset>
                     <input type="submit" value="Join the Chamber" class="submitBtn">
@@ -125,6 +128,5 @@
         </div>
     </footer>
     <script src="./js/script.js"></script>
-    <script src="./js/windchill.js"></script>
 </body>
 </html>

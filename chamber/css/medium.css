@@ -53,6 +53,13 @@
         grid-column: 1/4;
     }
 
+    form label.top input, form label.top select {
+        max-width: 21rem;
+    }
+    textarea {
+        max-width: 80%;
+    }
+
 
     /* || Footer */
     

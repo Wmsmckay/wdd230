@@ -245,10 +245,17 @@ form label.top input, form label.top select {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 20rem;
+    max-width: 18rem;
     background-color: rgba(0,0,0,0.1);
 }
 
+textarea {
+    width: 90%;
+}
+
+.membership {
+    padding-top: 5rem;
+}
 
 form label.sbs {
     display: block;

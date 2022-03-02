@@ -49,7 +49,7 @@
                         <label class="top">First Name* <input type="text" name="fname" required></label>
                         <label class="top">Last Name* <input type="text" name="lname" required></label>
                         <!-- Add Regex here -->
-                        <label class="top">Business Position <input type="text" name="businesstitle"></label>
+                        <label class="top">Business Position <small>(only letter hyphens, and spaces)</small> <input type="text" name="businesstitle" pattern="[a-zA-Z0-9- ]{7}"></label>
                         <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.ttne" required></label>
                         <label class="top">Cell Phone* <input type="tel" name="phone" required></label>
 
@@ -57,14 +57,17 @@
                     <fieldset>
                         <legend>Business Information</legend>
                         <label class="top">Business Name <input type="text" name="businessname" required></label>
-                        <div>Membership Level</div>
-                        <label class="sbs"><input type="radio" name="level" value="np"> NP Membership</label>
+                        <!-- <div id="membership">Membership Level</div> -->
+                        <label class="top membership">Membership Level</label>
+                        <label class="sbs"><input type="radio" name="level" value="np" required> NP Membership</label>
                         <label class="sbs"><input type="radio" name="level" value="bronze"> Bronze Membership</label>
                         <label class="sbs"><input type="radio" name="level" value="silver"> Silver Membership</label>
                         <label class="sbs"><input type="radio" name="level" value="gold"> Gold Membership</label>
-                        <label class="top">Business Description
-                            <textarea name="businessdescription" rows="4" required></textarea>
-                        </label>
+                        
+                        <label class="top">Business Description</label>
+                        <textarea name="bDesc"placeholder="Enter a brief description of your business."></textarea><br><br>
+
+
                         <p>date here (hidden)</p>
 
                     </fieldset>

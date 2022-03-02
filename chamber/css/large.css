@@ -86,6 +86,11 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    /* || Thankyou Main */
+        #thankyou {
+            grid-column: 1/5;
+        }   
+
     /* || Footer */
     #footer-top {
         display: grid;

@@ -31,6 +31,7 @@ main {
     margin: 10px;
     padding: 10px;
 }
+
 main h2, h3, h4, p {
     margin: 1em;
     color: var(--highlight-color);
@@ -135,7 +136,9 @@ nav ul li.active a {
     background-color: rgba(0,0,0,0.2);
 }
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
+    /* color: var(--background-color); */
+    background-color: rgba(182, 182, 182, 0.3);
+
 }
 nav ul {display: none;}
 nav ul.open {display: block;}
@@ -182,7 +185,6 @@ body p {
 main div {
     margin: 1rem;
     background-color: rgba(49, 49, 49, 0.3);
-    text-align: center;
     border: 1px solid var(--border-line);
     border-radius: 15px;
     text-align: center;
@@ -195,6 +197,86 @@ main div {
     max-width: 150px;
 }
 
+/* || Join */
+#join-main {
+    grid-column: 1/2;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    /* align-items: left; */
+    /* justify-content: left; */
+    text-align: left;
+}
+
+/* || Form */
+form {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+form fieldset{
+    margin: 2rem 0;
+    border: 5px solid var(--border-line);
+    border-radius: 20px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: var(--highlight-color);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    /* color: #9c2c13; */
+    color: --light-gray-color;
+    /* font-size: .8rem; */
+}
+
+form label.top input, form label.top select {
+    /* -webkit-appearance: none; */
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
 
 /* || Footer */
 footer {

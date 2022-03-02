@@ -48,6 +48,11 @@
         grid-column: 2/3;
     }
 
+    /*  || join */
+    #join-main {
+        grid-column: 1/4;
+    }
+
 
     /* || Footer */
     

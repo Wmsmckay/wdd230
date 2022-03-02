@@ -1,7 +1,10 @@
 /* For desktop view */
 @media only screen and (min-width: 1000px){
     /* || Global Css */
-
+    body {
+        max-width: 1000px;
+        margin: auto;
+    }
     
     /* || Header */
     header {
@@ -41,7 +44,7 @@
     /* || Date */
 
 
-    /* || Main */
+    /* || Main index*/
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -76,6 +79,12 @@
         display: initial;
     }
 
+    /* || Main Join */
+    #join-main {
+        grid-column: 1/5;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
     /* || Footer */
     #footer-top {

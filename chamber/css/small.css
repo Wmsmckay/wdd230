@@ -174,12 +174,20 @@ body p {
 }
 #call-to-action img {
     width: 100%;
-    object-fit: cover;
+    height: 300px;
+    /* object-fit: cover; */
+    /* object-position: relative; */
+    /* object-position: 50% 50%; */
+    /* border-radius: 2px; */
 }
-.action-button{
-    grid-column: 2/3;
+.action-button {
+    /* grid-column: 2/3;
     grid-row: 2/3;
-    cursor: pointer;
+    cursor: pointer; */
+    /* position: absolute; */
+    /* align-self: end; */
+    /* width: 100px; */
+    /* margin-bottom: 10px; */
 }
 main div {
     margin: 1rem;

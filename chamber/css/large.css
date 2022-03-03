@@ -2,8 +2,8 @@
 @media only screen and (min-width: 1000px){
     /* || Global Css */
     body {
-        max-width: 1000px;
-        margin: auto;
+        /* max-width: 1000px; */
+        /* margin: auto; */
     }
     
     /* || Header */
@@ -48,10 +48,17 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* grid-template-rows: 1fr 1fr ; */
+        /* grid-template-rows: 40% 40% 20%; */
     }
     #call-to-action {
         grid-column: 2/4;
         grid-row: 1/3;
+    }
+    #call-to-action img {
+        width: 100%;
+        
+        /* object-position: 30% 70%; */
     }
     #new-release {
         grid-column: 2/4;

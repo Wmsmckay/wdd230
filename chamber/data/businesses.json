@@ -1,0 +1,88 @@
+{
+    "businesses": [
+      {
+        "name": "Corellian Masternav, Incorporation",
+        "location":"Corellia",
+        "phone": "",
+        "website":"https://starwars.fandom.com/wiki/Corellian_Masternav,_Incorporation",
+        "imageurl": "https://static.wikia.nocookie.net/starwars/images/7/75/Corellian_Masternav_Incorporation.svg/revision/latest/scale-to-width-down/500?cb=20160606013938"
+      },
+      {
+        "name": "Daa Corporation",
+        "location": "Ontotho",
+        "phone": "",
+        "website": "https://starwars.fandom.com/wiki/Daa_Corporation",
+        "imageurl": "https://static.wikia.nocookie.net/starwars/images/1/1a/Daa_Corporation_logo.svg/revision/latest?cb=20220202230253"
+      },
+      {
+        "name": "Toxico",
+        "location": "Coruscant",
+        "phone": "",
+        "website": "https://starwars.fandom.com/wiki/Toxico/Legends",
+        "imageurl": "https://static.wikia.nocookie.net/starwars/images/c/ce/Toxico.png/revision/latest/scale-to-width-down/185?cb=20210822013559"
+      },
+      {
+        "name": "TransGalMeg Industries, Incorporated",
+        "location": "Demophon, Narg, Pako Ramoon",
+        "phone": "",
+        "website": "https://starwars.fandom.com/wiki/TransGalMeg_Industries,_Incorporated",
+        "imageurl": "https://static.wikia.nocookie.net/starwars/images/b/bf/TransGalMeg_Industries_Incorporated.svg/revision/latest/scale-to-width-down/500?cb=20160521041839"
+      },
+      {
+        "name": "Trilon, Inc.",
+        "location": "Mechis III",
+        "phone": "",
+        "website": "https://starwars.fandom.com/wiki/Trilon,_Inc.",
+        "imageurl": "https://static.wikia.nocookie.net/starwars/images/2/27/Trilon_Inc.svg/revision/latest/scale-to-width-down/500?cb=20160527034600"
+      },
+      {
+        "name": "Ulban Arms",
+        "location": "Corporate Sector",
+        "phone": "",
+        "website": "https://starwars.fandom.com/wiki/Ulban_Arms",
+        "imageurl": "https://static.wikia.nocookie.net/starwars/images/a/a7/Ulban_Arms.svg/revision/latest/scale-to-width-down/499?cb=20160531024213"
+      },
+      {
+        "name": "LeisureMech Enterprises",
+        "location": "CANTONICA",
+        "phone": "",
+        "website": "https://starwars.fandom.com/wiki/LeisureMech_Enterprises/Legends",
+        "imageurl": "https://static.wikia.nocookie.net/starwars/images/2/22/LeisureMech_Enterprises.svg/revision/latest/scale-to-width-down/500?cb=20160530234725"
+      },
+      {
+        "name": "Utilitech",
+        "location": "Etti IV",
+        "phone": "",
+        "website": "https://starwars.fandom.com/wiki/Utilitech/Legends",
+        "imageurl": "https://static.wikia.nocookie.net/starwars/images/0/07/Go-Corp.svg/revision/latest/scale-to-width-down/243?cb=20130619141006"
+      },
+      {
+        "name": "Sacul Industries Group",
+        "location": "Coruscant",
+        "phone": "",
+        "website": "https://starwars.fandom.com/wiki/Sacul_Industries_Group",
+        "imageurl": "https://static.wikia.nocookie.net/starwars/images/d/d4/Sacul-logo.jpg/revision/latest/scale-to-width-down/177?cb=20130501124717"
+      },
+      {
+        "name": "Outer Rim Supply Co.",
+        "location": "Bespin",
+        "phone": "",
+        "website": "https://starwars.fandom.com/wiki/Outer_Rim_Supply_Co.",
+        "imageurl": "https://static.wikia.nocookie.net/starwars/images/9/91/Outer_Rim_Supply_CO.png/revision/latest/scale-to-width-down/226?cb=20151015084119"
+      },
+      {
+        "name": "Gowix Corporation",
+        "location": "Corellia",
+        "phone": "",
+        "website": "https://starwars.fandom.com/wiki/Gowix_Corporation",
+        "imageurl": "https://static.wikia.nocookie.net/starwars/images/a/a5/Gowix_Corporation.png/revision/latest/scale-to-width-down/500?cb=20150816182153"
+      },
+      {
+        "name": "White Thranta Shipping Company",
+        "location": "Tatooine",
+        "phone": "",
+        "website": "https://starwars.fandom.com/wiki/White_Thranta_Shipping_Company",
+        "imageurl": "https://static.wikia.nocookie.net/starwars/images/1/18/White_Thranta_manager.jpg/revision/latest/scale-to-width-down/250?cb=20091104050501"
+      }
+    ]
+  }

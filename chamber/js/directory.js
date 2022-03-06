@@ -1,4 +1,4 @@
-const requestURL = 'https://wmsmckay.github.io/wdd230/chamber/data/businesses.json';
+const requestURL = 'https://wmsmckay.github.io/wdd230/chamber/data/data.json';
 const cards = document.querySelector('.cards');
 
 

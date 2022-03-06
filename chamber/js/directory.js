@@ -23,6 +23,8 @@ function displayBusinessesCard(business) {
     let phone = document.createElement('p');
     let website = document.createElement('a');
 
+    card.setAttribute('class', 'card');
+
     h2.textContent = `${business.name}`;
     logo.setAttribute('src', business.imageurl);
     logo.setAttribute('alt', `Logo of ${business.name}`)

@@ -98,6 +98,21 @@
             grid-column: 1/5;
         }   
 
+    /* || Directory Main */
+
+    .cardView {
+        /* display: grid; */
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+
+    }
+
+    .cardView section {
+        /* justify-content: center; */
+        /* justify-items: center; */
+        /* width: 300px; */
+    }
+
     /* || Footer */
     #footer-top {
         display: grid;

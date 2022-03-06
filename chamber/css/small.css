@@ -300,6 +300,9 @@ form label.top input:required:valid {
 
 .cards section {
     border: 1px solid var(--border-line);
+    /* margin: 1rem; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
 
 .cards a {
@@ -335,7 +338,7 @@ form label.top input:required:valid {
     margin: 1rem;
     max-width: 250px;
     max-height: 250px;
-    border: 1px solid var(--border-line);
+    /* border: 1px solid var(--border-line); */
 }
 
 .cardView section{
@@ -351,6 +354,15 @@ form label.top input:required:valid {
     /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
     padding: 1rem;
 }
+
+/* .cards .listView section { */
+    /* background-color: blue; */
+/* } */
+
+/* .card .listView{
+    background-color: #007bb5;
+
+} */
 
 
 /* || Footer */

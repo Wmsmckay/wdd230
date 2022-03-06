@@ -335,6 +335,7 @@ form label.top input:required:valid {
     margin: 1rem;
     max-width: 250px;
     max-height: 250px;
+    border: 1px solid var(--border-line);
 }
 
 .cardView section{

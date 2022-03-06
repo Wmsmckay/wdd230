@@ -306,7 +306,7 @@ form label.top input:required:valid {
     color: var(--link-visited);
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .cards {
@@ -320,6 +320,10 @@ form label.top input:required:valid {
 }
 .listView section:nth-child(even){
     background-color: var(--border-line);
+}
+
+.listView h3, p {
+    margin-left: 2rem;
 }
 
 .listView img{

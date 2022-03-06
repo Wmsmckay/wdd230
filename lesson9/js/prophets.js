@@ -1,10 +1,5 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
-// const prophets = jsonObject['prophets'];
-
-
-
-
 
 fetch(requestURL)
     .then(function (response) {
@@ -16,8 +11,6 @@ fetch(requestURL)
     const prophets = jsonObject['prophets'];
     prophets.forEach(displayProphets);
     });
-
-// console.log(data)
 
 function ordinal(number){
     let x = number % 10;

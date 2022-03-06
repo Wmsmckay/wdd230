@@ -188,7 +188,8 @@ body p {
     /* width: 100px; */
     /* margin-bottom: 10px; */
 }
-main div {
+
+#home-main {
     margin: 1rem;
     background-color: rgba(49, 49, 49, 0.3);
     border: 1px solid var(--border-line);
@@ -196,6 +197,7 @@ main div {
     text-align: center;
     padding: 10px;
 }
+
 #weather img{
     /* float: left; */
 }
@@ -273,6 +275,74 @@ form label.top input:required {
 }
 form label.top input:required:valid {
     border-left: green solid 6px;
+}
+
+
+
+/* || Directory main */
+#directory-main {
+    grid-column: 1/2;
+    margin: auto;
+    display: block;
+}
+
+#directory-main h2 {
+    text-align: center;
+}
+
+#directory-button-div {
+    margin: 1rem;
+    background-color:var(--dark-grey-color);
+    border: 0px;
+    border-radius:0%;
+    text-align: center;
+}
+
+.cards section {
+    border: 1px solid var(--border-line);
+}
+
+.cards a {
+    color: var(--link-visited);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.cards {
+    display: block;
+}
+
+.listView {
+    display:block;
+    border: none;
+    text-align: left;
+}
+.listView section:nth-child(even){
+    background-color: var(--border-line);
+}
+
+.listView img{
+    display: none;
+}
+
+.cardView img {
+    /* padding: 1rem; */
+    /* margin: 1rem; */
+}
+
+.cardView section{
+    margin: 1rem;
+    /* box-shadow: 15px 0 15px rgba(255, 255, 255, 0.4); */
+    border: 5px solid var(--border-line);
+    max-width: 350px;
+    text-align: center;
+}
+
+.cardView {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
+    padding: 1rem;
 }
 
 

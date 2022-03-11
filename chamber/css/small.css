@@ -188,14 +188,15 @@ body p {
     /* width: 100px; */
     /* margin-bottom: 10px; */
 }
-#home-main div {
+/* #home-main div {
     border: 1px solid var(--border-line);
     border-radius: 15px;
     padding: 10px;
     background-color: rgba(49, 49, 49, 0.3);
 
-}
-#home-main {
+} */
+/* #home-main */
+#home-main div {
     margin: 1rem;
     background-color: rgba(49, 49, 49, 0.3);
     border: 1px solid var(--border-line);

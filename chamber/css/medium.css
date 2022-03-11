@@ -86,6 +86,13 @@
         /* display: grid; */
         /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     }
+
+    .cards-line {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    
     .cardView section {
         width: 300px;
     }

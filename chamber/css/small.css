@@ -136,16 +136,17 @@ nav ul li.active a {
 nav ul li a:hover {
     /* color: var(--background-color); */
     background-color: rgba(182, 182, 182, 0.3);
-
 }
 nav ul {display: none;}
 nav ul.open {display: block;}
 
+/* #hamburger-btn.open span:nth-child(1) {display: none;} */
+
 #hamburgerBtn span:nth-child(1) {display:block;}
 #hamburgerBtn span:nth-child(2) {display:none;}
 
-#hamburgerBtn.open spand:nth-child(1) {display:none;}
-#hamburgerBtn.open spand:nth-child(2) {display:block;}
+#hamburgerBtn.open span:nth-child(1) {display:none;}
+#hamburgerBtn.open span:nth-child(2) {display:block;}
 
 
 /* || Date */
@@ -193,7 +194,6 @@ body p {
     border-radius: 15px;
     padding: 10px;
     background-color: rgba(49, 49, 49, 0.3);
-
 } */
 /* #home-main */
 #home-main div {

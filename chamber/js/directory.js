@@ -2,6 +2,7 @@ const requestURL = 'https://wmsmckay.github.io/wdd230/chamber/data/data.json';
 const cards = document.querySelector('.cards');
 
 
+
 fetch(requestURL)
     .then(function (response) {
       return response.json();
@@ -27,6 +28,9 @@ function displayBusinessesCard(business) {
     logo.setAttribute('src', business.imageurl);
     logo.setAttribute('alt', `Logo of ${business.name}`)
     logo.setAttribute('loading', 'lazy');
+    card.setAttribute("class", "cards-line")
+
+
     
     location.textContent = business.location;
     phone.textContent = business.phone;
@@ -47,3 +51,24 @@ const cardBtn = document.querySelector('#cardView');
 
 listBtn.addEventListener("click", ()=> { cards.classList.replace("listView", "cardView")});
 cardBtn.addEventListener("click", ()=> { cards.classList.replace("cardView", "listView")});
+
+
+
+// listBtn.addEventListener("click", ()=> { 
+//   for(i = 0; i < cards.childElementCount; i++) {
+//     // cards.childNodes[i].classList.add(".cards-line");
+//     cards.childNodes[i].setAttribute("class", ".cards-line");
+//     // cards.childNodes[i].setAttribute("class", ".cards-grid");
+//   }
+//   });
+
+// cardBtn.addEventListener("click", ()=> { 
+//   for(i = 0; i < cards.childElementCount; i++) {
+//     // cards.childNodes[i].classList.remove(".cards-line");
+//     // cards.childNodes[i].setAttribute("class", ".cards-line");
+//     cards.childNodes[i].setAttribute("class", ".cards-grid");
+   
+//   }
+//   });
+
+

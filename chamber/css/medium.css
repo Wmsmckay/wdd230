@@ -71,26 +71,21 @@
         text-align: center;
     } 
 
+
+
     /* || Direcroty Main */
     #directory-main {
         grid-column: 1/4;
     }
-
     .cardView {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
     }
-    
     .cards section{
         /* display: grid; */
         /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     }
-    .card {
-        /* background-color: green; */
-        /* display: initial; */
-    }
-
     .cardView section {
         width: 300px;
     }

@@ -23,8 +23,6 @@ function displayBusinessesCard(business) {
     let phone = document.createElement('p');
     let website = document.createElement('a');
 
-    card.setAttribute('class', 'card');
-
     h2.textContent = `${business.name}`;
     logo.setAttribute('src', business.imageurl);
     logo.setAttribute('alt', `Logo of ${business.name}`)
@@ -43,33 +41,6 @@ function displayBusinessesCard(business) {
     
     cards.appendChild(card);
     }
-
-// function displayBusinessesList(business) {
-//     // Create elements to add to the document
-//     let card = document.createElement('section');
-//     let h2 = document.createElement('h2');
-//     // let logo = document.createElement('img');
-//     let location = document.createElement('p');
-//     let phone = document.createElement('p');
-//     let website = document.createElement('p');
-
-//     h2.textContent = `${business.name}`;
-//     // logo.setAttribute('src', business.imageurl);
-//     // logo.setAttribute('alt', `Logo of ${business.name}`)
-//     // logo.setAttribute('loading', 'lazy');
-    
-//     location.textContent = business.location;
-//     phone.textContent = business.phone;
-//     website.textContent = business.website;
-
-//     // card.appendChild(logo);
-//     card.appendChild(h2);
-//     card.appendChild(location);
-//     card.appendChild(phone);
-//     card.appendChild(website);
-    
-//     cards.appendChild(card);
-//     }
 
 const listBtn = document.querySelector('#listView');
 const cardBtn = document.querySelector('#cardView');

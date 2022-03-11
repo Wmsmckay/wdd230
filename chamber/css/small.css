@@ -188,7 +188,13 @@ body p {
     /* width: 100px; */
     /* margin-bottom: 10px; */
 }
+#home-main div {
+    border: 1px solid var(--border-line);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(49, 49, 49, 0.3);
 
+}
 #home-main {
     margin: 1rem;
     background-color: rgba(49, 49, 49, 0.3);
@@ -285,11 +291,9 @@ form label.top input:required:valid {
     margin: auto;
     display: block;
 }
-
 #directory-main h2 {
     text-align: center;
 }
-
 #directory-button-div {
     margin: 1rem;
     background-color:var(--dark-grey-color);
@@ -297,25 +301,18 @@ form label.top input:required:valid {
     border-radius:0%;
     text-align: center;
 }
-
 .cards section {
     border: 1px solid var(--border-line);
-    /* margin: 1rem; */
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
-
 .cards a {
     color: var(--link-visited);
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     margin-left: 2rem;
 }
-
 .cards {
     display: block;
 }
-
 .listView {
     display:block;
     border: none;
@@ -324,45 +321,29 @@ form label.top input:required:valid {
 .listView section:nth-child(even){
     background-color: var(--border-line);
 }
-
 .listView h3, p {
     margin-left: 2rem;
 }
-
 .listView img{
     display: none;
 }
-
 .cardView img {
     padding: 1rem;
     margin: 1rem;
     max-width: 250px;
     max-height: 250px;
-    /* border: 1px solid var(--border-line); */
 }
-
 .cardView section{
     margin: 1rem;
-    /* box-shadow: 15px 0 15px rgba(255, 255, 255, 0.4); */
     border: 5px solid var(--border-line);
     max-width: 350px;
     text-align: center;
 }
-
 .cardView {
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
     padding: 1rem;
 }
 
-/* .cards .listView section { */
-    /* background-color: blue; */
-/* } */
-
-/* .card .listView{
-    background-color: #007bb5;
-
-} */
 
 
 /* || Footer */

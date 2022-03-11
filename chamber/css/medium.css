@@ -82,19 +82,20 @@
         grid-template-columns: 1fr 1fr;
         justify-items: center;
     }
-    .cards section{
-        /* display: grid; */
-        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    }
-
     .cards-line {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-
-    
+    .cards-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .cardView section {
         width: 300px;
+    }
+    .list-view {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     /* || Footer */

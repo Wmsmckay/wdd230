@@ -54,21 +54,16 @@ cardBtn.addEventListener("click", ()=> { cards.classList.replace("cardView", "li
 
 
 
-// listBtn.addEventListener("click", ()=> { 
-//   for(i = 0; i < cards.childElementCount; i++) {
-//     // cards.childNodes[i].classList.add(".cards-line");
-//     cards.childNodes[i].setAttribute("class", ".cards-line");
-//     // cards.childNodes[i].setAttribute("class", ".cards-grid");
-//   }
-//   });
+cardBtn.addEventListener("click", ()=> { 
+  for(i = 0; i < cards.childElementCount; i++) {
+    cards.childNodes[i].setAttribute("class", "list-view");
+  }
+  });
 
-// cardBtn.addEventListener("click", ()=> { 
-//   for(i = 0; i < cards.childElementCount; i++) {
-//     // cards.childNodes[i].classList.remove(".cards-line");
-//     // cards.childNodes[i].setAttribute("class", ".cards-line");
-//     cards.childNodes[i].setAttribute("class", ".cards-grid");
-   
-//   }
-//   });
+listBtn.addEventListener("click", ()=> { 
+  for(i = 0; i < cards.childElementCount; i++) {
+    cards.childNodes[i].setAttribute("class", ".cards-grid");
+  }
+  });
 
 

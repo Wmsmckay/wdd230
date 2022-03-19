@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discovery page for the Bestine Chamber of Commerce on Tatooine.">
+    <meta name="author" content="McKay Williams">
+    <title>Bestine Chamber of Commerce Discovery</title>
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+    <header>
+        <img class="logo" src="./images/bantha-logo.webp"  alt="BCC logo">
+        <h1 id="title"><span class="glowing">Bestine</span><br> Chamber of Commerce</h1>
+        <div id="social-links">
+            <span><a href="#" class="fa fa-facebook"></a></span>
+            <span><a href="#" class="fa fa-linkedin"></a></span>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="./index.html">Home</a></li>
+                <li><a class="active" href="#">Discover</a></li>
+                <li><a href="./directory.html">Directory</a></li>
+                <li><a href="./join.html">Join</a></li>
+                <li><a href="./contact.html">Contact</a></li>   
+            </ul>
+        </nav>
+        <span id="header-date" class="glowing"></span>
+    </header>
+    <main id="discover-main">
+        <h2>Discover Tatooine</h2>
+        <h3>Last visit was </span><span id="last_visit"></span> days ago.</h3>
+        <div id="discover-divs"> 
+            <div class="discover-block">
+                <p>Come see some Pod Racing in at the Boonta Eve Classic!</p>
+                <img class="lazy-load" atl="" src="images/placeholder.png" data-src="./images/podracing.jpeg">
+            </div>
+            <div class="discover-block">
+                <p>Visit the bustling space port.</p>
+                <img class="lazy-load" atl="" src="images/placeholder.png" data-src="./images/spaceport.jpg">
+            </div>
+            <div class="discover-block">
+                <p>Have a drink at one of the many cantinas in the area.</p>
+                <img class="lazy-load" atl="" src="images/placeholder.png" data-src="./images/cantina.jpg">
+            </div>
+            <div class="discover-block">
+                <p>Find a Jawa Droid Market and get a used model for cheap.</p>
+                <img class="lazy-load" atl="" src="images/placeholder.png" data-src="./images/jawa-market.png">
+            </div>
+            <div class="discover-block">
+                <p>Take a tour of the Dune Sea on a luxury sail barge.</p>
+                <img class="lazy-load" atl="" src="images/placeholder.png" data-src="./images/sailbarge.jpg">
+            </div>
+            <div class="discover-block">
+                <p>Get one of the newest speeder bike models from Coruscant</p>
+                <img class="lazy-load" atl="" src="images/placeholder.png" data-src="./images/power-rangers.jpg">
+            </div>
+            <div class="discover-block">
+                <p>Need work? They are always hiring at Jabba's palace</p>
+                <img class="lazy-load" atl="" src="images/placeholder.png" data-src="./images/jabbas-palace.jpg">
+            </div>
+            <div class="discover-block">
+                <p>Watch bantha herd migrations</p>
+                <img class="lazy-load" atl="" src="images/placeholder.png" data-src="./images/bantha_herd.jpg">
+            </div>
+            <div class="discover-block">
+                <p>Farm your own water from a romantic moisture farm getaway.</p>
+                <img class="lazy-load" atl="" src="images/placeholder.png" data-src="./images/moisture-farm.jpg">
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div id="footer-top">
+            <img class="logo" src="./images/bantha-logo.webp" alt="BCC logo">
+            <div id="business-info">
+                <h2 class="glowing" >Bestine Chamber of Commerce</h2>
+                <p>Delivery Station 450, Receptacle C-53, Bestine, Tatooine, Quadrant 4517523</p>
+            </div>
+            
+            <div id="contact-info">
+                <p>info@bestincc.ttne</p>
+                <p>(742263) 85-6-33129</p>
+            </div>
+        </div>
+        <hr>
+        <div id="footer-bottom">
+            <p>&copy;<span id=current-year></span> | Bestine Chamber | McKay Williams | WDD 230 Project <span id=last-updated></span></p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/lazyLoad.js"></script>
+    <script src="./js/lastVisit.js"></script>
+</body>
+</html>

@@ -8,14 +8,21 @@
     }
 
 
+
+
     /* || Header */
     h1 {
-        /* display: initial; */
         letter-spacing: 1.5px;
     }
 
 
+
+
+
     /* || Navigation Menu */
+
+
+
 
 
     /* || Main */
@@ -25,11 +32,6 @@
     }
     #call-to-action {
         grid-column: 1/3;
-    }
-    #call-to-action img {
-        /* height: 350px; */
-        /* object-position: 30% 70%; */
-        /* display: none; */
     }
     #new-release {
         grid-column: 1/3;
@@ -52,6 +54,9 @@
         grid-column: 2/3;
     }
 
+
+
+
     /* || Discover Main */
     #discover-divs {
         display: grid;
@@ -65,6 +70,15 @@
     #discover-divs img:hover {
         transform: scale(1.05);
     }
+    .join-button {
+        transition: 0.2s all ease-in-out;
+    }
+    .join-button:hover {
+        transform: scale(1.05);
+    }
+
+
+
 
 
     /*  || Join Main*/
@@ -79,6 +93,8 @@
     }
 
 
+
+
     /* || Thankyou Main */
     #thankyou {
         grid-column: 1/4;
@@ -86,6 +102,8 @@
     } 
 
 
+
+    
 
     /* || Direcroty Main */
     #directory-main {

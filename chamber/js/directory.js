@@ -36,6 +36,7 @@ function displayBusinessesCard(business) {
     phone.textContent = business.phone;
     website.textContent = 'Website'
     website.setAttribute('href', business.website);
+    website.setAttribute('target', '_blank')
 
     card.appendChild(logo);
     card.appendChild(h2);

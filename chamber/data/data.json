@@ -5,84 +5,91 @@
         "location":"Corellia",
         "phone": "(742263) 81-9-44377",
         "website":"https://starwars.fandom.com/wiki/Corellian_Masternav,_Incorporation",
-        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/data/images/Corellian_Masternav_Incorporation.png"
+        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/images/Corellian_Masternav_Incorporation.png"
       },
       {
         "name": "Daa Corporation",
         "location": "Ontotho",
         "phone": "(844203) 81-2-47753",
         "website": "https://starwars.fandom.com/wiki/Daa_Corporation",
-        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/data/images/Daa_Corporation_logo.jpg"
+        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/images/Daa_Corporation_logo.jpg"
       },
       {
         "name": "Toxico",
         "location": "Coruscant",
         "phone": "(844203) 81-2-41753",
         "website": "https://starwars.fandom.com/wiki/Toxico/Legends",
-        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/data/images/Toxico.webp"
+        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/images/Toxico.webp"
       },
       {
         "name": "TransGalMeg Industries, Incorporated",
         "location": "Demophon, Narg, Pako Ramoon",
         "phone": "(004203) 01-2-56753",
         "website": "https://starwars.fandom.com/wiki/TransGalMeg_Industries,_Incorporated",
-        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/data/images/TransGalMeg_Industries_Incorporated.png"
+        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/images/TransGalMeg_Industries_Incorporated.png"
       },
       {
         "name": "Trilon, Inc.",
         "location": "Mechis III",
         "phone": "(844801) 91-2-47653",
         "website": "https://starwars.fandom.com/wiki/Trilon,_Inc.",
-        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/data/images/Trilon_Inc.png"
+        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/images/Trilon_Inc.png"
       },
       {
         "name": "Ulban Arms",
         "location": "Corporate Sector",
         "phone": "(804201) 11-9-07753",
         "website": "https://starwars.fandom.com/wiki/Ulban_Arms",
-        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/data/images/Ulban_Arms.png"
+        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/images/Ulban_Arms.png"
       },
       {
         "name": "LeisureMech Enterprises",
         "location": "CANTONICA",
         "phone": "(004963) 11-2-56788",
         "website": "https://starwars.fandom.com/wiki/LeisureMech_Enterprises/Legends",
-        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/data/images/LeisureMech_Enterprises.png"
+        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/images/LeisureMech_Enterprises.png"
       },
       {
         "name": "Utilitech",
         "location": "Etti IV",
         "phone": "(014233) 45-4-56503",
         "website": "https://starwars.fandom.com/wiki/Utilitech/Legends",
-        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/data/images/Go-Corp.png"
+        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/images/Go-Corp.png"
       },
       {
         "name": "Sacul Industries Group",
         "location": "Coruscant",
         "phone": "(642303) 53-8-51638",
         "website": "https://starwars.fandom.com/wiki/Sacul_Industries_Group",
-        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/data/images/Sacul-logo.webp"
+        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/images/Sacul-logo.webp"
       },
       {
         "name": "Outer Rim Supply Co.",
         "location": "Bespin",
         "phone": "(321233) 99-0-80913",
         "website": "https://starwars.fandom.com/wiki/Outer_Rim_Supply_Co.",
-        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/data/images/Outer_Rim_Supply_CO.webp"
+        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/images/Outer_Rim_Supply_CO.webp"
       },
       {
         "name": "Gowix Corporation",
         "location": "Corellia",
         "phone": "(98733) 91-0-94163",
         "website": "https://starwars.fandom.com/wiki/Gowix_Corporation",
-        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/data/images/Gowix_Corporation.webp"
+        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/images/Gowix_Corporation.webp"
+      },
+      {
+        "name": "Honwoo's Repair shop",
+        "location":"Anchorhead",
+        "phone": "(742263) 81-1-12099",
+        "website":"https://starwars.fandom.com/wiki/Honwoo%27s_repair_shop",
+        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/images/pit"
       },
       {
         "name": "White Thranta Shipping Company",
         "location": "Tatooine",
         "phone": "(742263) 08-3-82099",
         "website": "https://starwars.fandom.com/wiki/White_Thranta_Shipping_Company",
-        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/data/images/White_Thranta_manager.webp"
+        "imageurl": "https://wmsmckay.github.io/wdd230/chamber/images/White_Thranta_manager.webp"
       }
     ]
   }

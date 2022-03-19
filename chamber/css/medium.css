@@ -58,6 +58,14 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    #discover-divs img {
+        transition: 0.4s all ease-in-out;
+    }
+
+    #discover-divs img:hover {
+        transform: scale(1.05);
+    }
+
 
     /*  || Join Main*/
     #join-main {

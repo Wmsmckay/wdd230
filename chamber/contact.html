@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact page for the Bestine Chamber of Commerce on Tatooine.">
+    <meta name="author" content="McKay Williams">
+    <title>Bestine Chamber of Commerce contact Page</title>
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+
+    <header>
+        <img class="logo" src="./images/bantha-logo.webp"  alt="BCC logo">
+        <h1 id="title"><span class="glowing">Bestine</span><br> Chamber of Commerce</h1>
+        <div id="social-links">
+            <span><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a></span>
+            <span><a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a></span>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./discovery.html">Discover</a></li>
+                <li><a href="./directory.html">Directory</a></li>
+                <li><a href="./join.html">Join</a></li>
+                <li><a class="active" href="#">Contact</a></li>   
+            </ul>
+        </nav>
+        <span id="header-date" class="glowing"></span>
+    </header>
+    <main id="main-contact">
+        <div>
+            <h2>Contact Us</h2>
+            <div id="contact-section">
+                <form class="contact-form" method="get" action="./thankyou.html">
+                    <fieldset>
+                        <legend>Send us a holo message</legend>
+                        <label class="top">First Name* <input type="text" name="fname" required></label>
+                        <label class="top">Last Name* <input type="text" name="lname" required></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.ttne" required></label>
+                        <label class="top">Business Description</label>
+                        <textarea name="message" placeholder="Input message"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Send Message" class="submitBtn">
+                </form>
+                <div>
+                    <h3>Contact info</h3>
+                    <p>(742263) 85-6-33129</p>
+                    <p>Hours: M-F, 9am-5pm</p>
+                    <p>info@bestincc.ttne</p>
+                    <p>Delivery Station 450, Receptacle C-53, Bestine, Tatooine, Quadrant 4517523</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-top">
+            <img class="logo" src="./images/bantha-logo.webp" alt="BCC logo">
+            <div id="business-info">
+                <h2 class="glowing" >Bestine Chamber of Commerce</h2>
+                <p>Delivery Station 450, Receptacle C-53, Bestine, Tatooine, Quadrant 4517523</p>
+            </div>
+            
+            <div id="contact-info">
+                <p>info@bestincc.ttne</p>
+                <p>(742263) 85-6-33129</p>
+            </div>
+        </div>
+        <hr>
+        <div id="footer-bottom">
+            <p>&copy;<span id=current-year></span> | Bestine Chamber | McKay Williams | WDD 230 Project <span id=last-updated></span></p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

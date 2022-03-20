@@ -134,6 +134,28 @@
         /* width: 300px; */
     }
 
+
+
+
+
+    /* || Contact page */
+    #main-contact {
+        display: block;
+    }
+    #contact-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        text-align: center;
+    }
+    #main-contact div {
+        /* display: initial; */
+    }
+
+
+
+
+
     /* || Footer */
     #footer-top {
         display: grid;

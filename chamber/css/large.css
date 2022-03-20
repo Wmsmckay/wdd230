@@ -85,12 +85,20 @@
     #spotlight-3 {
         display: initial;
     }
+    .homepage-div {
+        min-width: 100px;
+        overflow-wrap: break-word; 
+    }
+
+
 
     /* || Discover Main */
     /* || Discover Main */
     #discover-divs {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+
 
     /* || Main Join */
     #join-main {
@@ -99,10 +107,17 @@
         grid-template-columns: 1fr 1fr;
     }
 
+
+
+
     /* || Thankyou Main */
         #thankyou {
             grid-column: 1/5;
         }   
+
+
+
+
 
     /* || Directory Main */
 

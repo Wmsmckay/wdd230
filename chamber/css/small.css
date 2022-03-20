@@ -23,6 +23,8 @@ html {-webkit-text-size-adjust: 100%;
 body {
     display: block;  
     color: var(--light-color);
+    max-width: 1300px;
+    margin: auto;
 }
 main {
     border: 1px solid var(--dark-color);
@@ -174,14 +176,20 @@ body p {
     width: 100%;
     min-height: 300px;
 }
-/* #home-main */
+/* #home-main {
+    max-width: 1300px;
+    margin: auto;
+} */
 #home-main div {
-    margin: 1rem;
+    margin: 0.5rem;
     background-color: rgba(49, 49, 49, 0.3);
     border: 1px solid var(--border-line);
     border-radius: 15px;
     text-align: center;
     padding: 10px;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    
 }
 .join-button {
     background-color: var(--link-visited);
@@ -201,8 +209,18 @@ body p {
     /* float: left; */
 }
 #spotlights img {
-    max-width: 150px;
+    max-width: 100px;
+    max-height: 100px;
 }
+#spotlights a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: var(--link-visited);
+}
+#spotlights {
+    /* margin-bottom: auto; */
+}
+
 
 
 

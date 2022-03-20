@@ -2,7 +2,7 @@
     "businesses": [
       {
         "name": "Corellian Masternav, Incorporation",
-        "membership-tier":"Gold",
+        "membership":"Gold",
         "location":"Corellia",
         "phone": "(742263) 81-9-44377",
         "website":"https://starwars.fandom.com/wiki/Corellian_Masternav,_Incorporation",
@@ -10,7 +10,7 @@
       },
       {
         "name": "Daa Corporation",
-        "membership-tier":"Silver",
+        "membership":"Silver",
         "location": "Ontotho",
         "phone": "(844203) 81-2-47753",
         "website": "https://starwars.fandom.com/wiki/Daa_Corporation",
@@ -18,7 +18,7 @@
       },
       {
         "name": "Toxico",
-        "membership-tier":"Silver",
+        "membership":"Silver",
         "location": "Coruscant",
         "phone": "(844203) 81-2-41753",
         "website": "https://starwars.fandom.com/wiki/Toxico/Legends",
@@ -26,7 +26,7 @@
       },
       {
         "name": "TransGalMeg Industries, Incorporated",
-        "membership-tier":"Gold",
+        "membership":"Gold",
         "location": "Demophon, Narg, Pako Ramoon",
         "phone": "(004203) 01-2-56753",
         "website": "https://starwars.fandom.com/wiki/TransGalMeg_Industries,_Incorporated",
@@ -34,7 +34,7 @@
       },
       {
         "name": "Trilon, Inc.",
-        "membership-tier":"Gold",
+        "membership":"Gold",
         "location": "Mechis III",
         "phone": "(844801) 91-2-47653",
         "website": "https://starwars.fandom.com/wiki/Trilon,_Inc.",
@@ -42,7 +42,7 @@
       },
       {
         "name": "Ulban Arms",
-        "membership-tier":"Silver",
+        "membership":"Silver",
         "location": "Corporate Sector",
         "phone": "(804201) 11-9-07753",
         "website": "https://starwars.fandom.com/wiki/Ulban_Arms",
@@ -50,7 +50,7 @@
       },
       {
         "name": "LeisureMech Enterprises",
-        "membership-tier":"Silver",
+        "membership":"Silver",
         "location": "CANTONICA",
         "phone": "(004963) 11-2-56788",
         "website": "https://starwars.fandom.com/wiki/LeisureMech_Enterprises/Legends",
@@ -58,7 +58,7 @@
       },
       {
         "name": "Utilitech",
-        "membership-tier":"Silver",
+        "membership":"Silver",
         "location": "Etti IV",
         "phone": "(014233) 45-4-56503",
         "website": "https://starwars.fandom.com/wiki/Utilitech/Legends",
@@ -66,7 +66,7 @@
       },
       {
         "name": "Sacul Industries Group",
-        "membership-tier":"Gold",
+        "membership":"Gold",
         "location": "Coruscant",
         "phone": "(642303) 53-8-51638",
         "website": "https://starwars.fandom.com/wiki/Sacul_Industries_Group",
@@ -74,7 +74,7 @@
       },
       {
         "name": "Outer Rim Supply Co.",
-        "membership-tier":"Silver",
+        "membership":"Silver",
         "location": "Bespin",
         "phone": "(321233) 99-0-80913",
         "website": "https://starwars.fandom.com/wiki/Outer_Rim_Supply_Co.",
@@ -82,7 +82,7 @@
       },
       {
         "name": "Gowix Corporation",
-        "membership-tier":"Silver",
+        "membership":"Silver",
         "location": "Corellia",
         "phone": "(98733) 91-0-94163",
         "website": "https://starwars.fandom.com/wiki/Gowix_Corporation",
@@ -90,7 +90,7 @@
       },
       {
         "name": "Honwoo's Repair shop",
-        "membership-tier":"Bronze",
+        "membership":"Bronze",
         "location":"Anchorhead",
         "phone": "(742263) 81-1-12099",
         "website":"https://starwars.fandom.com/wiki/Honwoo%27s_repair_shop",
@@ -98,7 +98,7 @@
       },
       {
         "name": "White Thranta Shipping Company",
-        "membership-tier":"Bronze",
+        "membership":"Bronze",
         "location": "Tatooine",
         "phone": "(742263) 08-3-82099",
         "website": "https://starwars.fandom.com/wiki/White_Thranta_Shipping_Company",

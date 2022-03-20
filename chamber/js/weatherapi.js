@@ -25,7 +25,5 @@ fetch(apiURL)
     else {
         document.querySelector("#windchill").innerHTML = "N/A"
     }
-
-    console.log(jsObject);
   });
 

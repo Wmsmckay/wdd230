@@ -1,8 +1,5 @@
 const requestURL = 'https://wmsmckay.github.io/wdd230/chamber/data/data.json';
-const cards = document.querySelector('.cards');
-
-
-
+const spotlights = document.querySelector('#spotlights');
 fetch(requestURL)
     .then(function (response) {
       return response.json();
@@ -10,59 +7,51 @@ fetch(requestURL)
     .then(function (jsonObject) {
       console.table(jsonObject);
     const businesses = jsonObject['businesses'];
-    businesses.forEach(displayBusinessesCard);
-    });
+    const used_index = []
+    // cards = []
+    for (let i = 0; i < 3; i++) {
+        i_random = Math.floor(Math.random() * businesses.length);
 
+        while (used_index.includes(i_random)) {
+            i_random = Math.floor(Math.random() * businesses.length);
+        }
+        used_index.push(i_random)
+        displayBusinessesCard(businesses[i_random]);
+    }
+});
 
 
 function displayBusinessesCard(business) {
     // Create elements to add to the document
-    let card = document.createElement('section');
+    let card = document.createElement('div');
     let h2 = document.createElement('h3');
     let logo = document.createElement('img');
     let location = document.createElement('p');
     let phone = document.createElement('p');
     let website = document.createElement('a');
+    // let info_text = document.createElement('p');
 
     h2.textContent = `${business.name}`;
     logo.setAttribute('src', business.imageurl);
     logo.setAttribute('alt', `Logo of ${business.name}`)
     logo.setAttribute('loading', 'lazy');
-    card.setAttribute("class", "cards-line")
+    card.setAttribute("class", "homepage-div")
 
     location.textContent = business.location;
     phone.textContent = business.phone;
     website.textContent = 'Website'
     website.setAttribute('href', business.website);
-    website.setAttribute('target', '_blank')
+    website.setAttribute('target', '_blank');
+    
+    // info_text.innerHTML = (`${phone} | ${website}`);
+    // info_text.appendChild(website)
 
     card.appendChild(logo);
     card.appendChild(h2);
     card.appendChild(location);
+    // card.appendChild(info_text);
     card.appendChild(phone);
     card.appendChild(website);
     
-    cards.appendChild(card);
+    spotlights.appendChild(card);
     }
-
-const listBtn = document.querySelector('#listView');
-const cardBtn = document.querySelector('#cardView');
-
-listBtn.addEventListener("click", ()=> { cards.classList.replace("listView", "cardView")});
-cardBtn.addEventListener("click", ()=> { cards.classList.replace("cardView", "listView")});
-
-
-
-cardBtn.addEventListener("click", ()=> { 
-  for(i = 0; i < cards.childElementCount; i++) {
-    cards.childNodes[i].setAttribute("class", "list-view");
-  }
-  });
-
-listBtn.addEventListener("click", ()=> { 
-  for(i = 0; i < cards.childElementCount; i++) {
-    cards.childNodes[i].setAttribute("class", ".cards-grid");
-  }
-  });
-
-

@@ -176,20 +176,13 @@ body p {
     width: 100%;
     min-height: 300px;
 }
-/* #home-main {
-    max-width: 1300px;
-    margin: auto;
-} */
 #home-main div {
     margin: 0.5rem;
     background-color: rgba(49, 49, 49, 0.3);
     border: 1px solid var(--border-line);
     border-radius: 15px;
     text-align: center;
-    padding: 10px;
-    /* margin-top: auto;
-    margin-bottom: auto; */
-    
+    padding: 10px;    
 }
 .join-button {
     background-color: var(--link-visited);
@@ -205,9 +198,6 @@ body p {
 .join-button:hover {
     background-color: var(--link-hover);
 }
-#weather img{
-    /* float: left; */
-}
 #spotlights img {
     max-width: 100px;
     max-height: 100px;
@@ -216,9 +206,6 @@ body p {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: var(--link-visited);
-}
-#spotlights {
-    /* margin-bottom: auto; */
 }
 
 
@@ -396,9 +383,7 @@ form label.top input:required:valid {
 
 
 /* || Contact page */
-.main-contact {
-    
-}
+
 
 
 

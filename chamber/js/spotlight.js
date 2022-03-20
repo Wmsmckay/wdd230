@@ -29,7 +29,6 @@ function displayBusinessesCard(business) {
     let location = document.createElement('p');
     let phone = document.createElement('p');
     let website = document.createElement('a');
-    // let info_text = document.createElement('p');
 
     h2.textContent = `${business.name}`;
     logo.setAttribute('src', business.imageurl);
@@ -43,13 +42,10 @@ function displayBusinessesCard(business) {
     website.setAttribute('href', business.website);
     website.setAttribute('target', '_blank');
     
-    // info_text.innerHTML = (`${phone} | ${website}`);
-    // info_text.appendChild(website)
 
     card.appendChild(logo);
     card.appendChild(h2);
     card.appendChild(location);
-    // card.appendChild(info_text);
     card.appendChild(phone);
     card.appendChild(website);
     

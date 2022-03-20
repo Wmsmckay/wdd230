@@ -32,6 +32,12 @@
     }
     #call-to-action {
         grid-column: 1/3;
+        height: 420px;
+        /* width: 100%; */
+    }
+    .action-button {
+        position: relative;
+        top:320px;
     }
     #new-release {
         grid-column: 1/3;

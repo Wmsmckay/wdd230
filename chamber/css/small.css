@@ -172,10 +172,23 @@ body p {
     display: block;
     color: var(--light-gray-color);
 }
-#call-to-action img {
-    width: 100%;
-    min-height: 300px;
+#call-to-action {
+    background-image: url(../images/hero-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
 }
+.action-button {
+    position: relative;
+    top:230px;
+}
+/* #call-to-action img { */
+    /* width: 100%; */
+    /* min-height: 300px; */
+    /* max-height: 250px; */
+    /* overflow: hidden; */
+    /* min-height: 100% */
+/* } */
 #home-main div {
     margin: 0.5rem;
     background-color: rgba(49, 49, 49, 0.3);
@@ -207,6 +220,7 @@ body p {
     font-family: 'Roboto', sans-serif;
     color: var(--link-visited);
 }
+
 
 
 

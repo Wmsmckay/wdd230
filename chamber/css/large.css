@@ -49,6 +49,11 @@
     #call-to-action {
         grid-column: 2/4;
         grid-row: 1/3;
+        height: 650px;
+    }
+    .action-button {
+        position: relative;
+        top:570px;
     }
     #new-release {
         grid-column: 2/4;
